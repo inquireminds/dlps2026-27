@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 7/8 Math & Science | David Lewis P.S.</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            top: 0px !important;
+            position: static !important;
+        }
+        html { scroll-behavior: smooth; }
+        
+        /* Hide Google Translate Banner Overlay */
+        .goog-te-banner-frame, .skiptranslate, #goog-gt-tt { display: none !important; }
+        .goog-text-highlight { background-color: transparent !important; box-shadow: none !important; }
+        body { top: 0px !important; }
+
+        /* Custom Gradient & Glassmorphism */
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%);
+        }
+    </style>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,tr,bn,ta,zh-CN',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        function changeLanguage(langCode) {
+            var select = document.querySelector('.goog-te-combo');
+            if (select) {
+                select.value = langCode;
+                select.dispatchEvent(new Event('change'));
+            }
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body class="bg-slate-100 text-slate-900 antialiased">
+
+    <!-- TOP HEADER / LANGUAGE BAR -->
+    <header class="sticky top-0 z-50 bg-slate-900 text-white shadow-xl border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-3">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-amber-400 flex items-center justify-center text-slate-900 font-extrabold text-xl shadow-md">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-base sm:text-lg leading-tight tracking-tight text-white">David Lewis Public School</h1>
+                    <p class="text-xs text-amber-300 font-semibold">Grade 7 & 8 Math & Science • TDSB</p>
+                </div>
+            </div>
+
+            <!-- LANGUAGE TRANSLATION BUTTONS -->
+            <div class="flex flex-wrap items-center gap-1.5 bg-slate-800/90 p-2 rounded-xl border border-slate-700">
+                <span class="text-xs font-bold text-slate-300 mr-1 flex items-center gap-1">
+                    <i class="fa-solid fa-language text-amber-400 text-sm"></i> Translate:
+                </span>
+                <button onclick="changeLanguage('en')" class="px-2.5 py-1 text-xs font-bold rounded-lg bg-amber-400 text-slate-950 hover:bg-amber-300 transition shadow-sm">EN</button>
+                <button onclick="changeLanguage('tr')" class="px-2.5 py-1 text-xs font-bold rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition border border-slate-600">🇹🇷 Türkçe</button>
+                <button onclick="changeLanguage('bn')" class="px-2.5 py-1 text-xs font-bold rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition border border-slate-600">🇧🇩 বাংলা</button>
+                <button onclick="changeLanguage('ta')" class="px-2.5 py-1 text-xs font-bold rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition border border-slate-600">🇮🇳 தமிழ்</button>
+                <button onclick="changeLanguage('zh-CN')" class="px-2.5 py-1 text-xs font-bold rounded-lg bg-slate-700 text-white hover:bg-slate-600 transition border border-slate-600">🇨🇳 中文</button>
+            </div>
+        </div>
+        <!-- Hidden Google Translate Element -->
+        <div id="google_translate_element" class="hidden"></div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-gradient text-white py-12 sm:py-16 px-4 relative overflow-hidden shadow-2xl">
+        <div class="max-w-4xl mx-auto space-y-8 relative z-10">
+            <div class="text-center space-y-3">
+                <span class="inline-flex items-center gap-2 bg-amber-400 text-slate-950 text-xs sm:text-sm font-extrabold px-4 py-1.5 rounded-full uppercase tracking-wider shadow-lg">
+                    <i class="fa-solid fa-star"></i> Meet the Teacher Night 2026–2027
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight">
+                    Real Problems. Big Thinking.<br><span class="text-amber-300">Every Student.</span>
+                </h2>
+            </div>
+            
+            <div class="bg-slate-900/90 border-2 border-amber-400/40 p-6 sm:p-8 rounded-3xl shadow-2xl space-y-6">
+                <div class="flex items-center space-x-3 text-amber-300">
+                    <i class="fa-solid fa-chalkboard-user text-2xl sm:text-3xl"></i>
+                    <h3 class="text-xl sm:text-2xl font-bold text-white">Welcome Parents & Guardians!</h3>
+                </div>
+                
+                <p class="text-slate-100 text-base sm:text-lg leading-relaxed font-normal">
+                    I have been teaching at <strong class="text-amber-300 font-bold">David Lewis Public School for almost two decades</strong>, and I am thrilled to be teaching your child Math and Science this year. More importantly, I believe in nurturing their curiosity, building their self-confidence, and teaching them self-advocacy.
+                </p>
+                
+                <div class="p-5 bg-amber-400 text-slate-950 rounded-2xl shadow-lg border-l-8 border-slate-900">
+                    <p class="text-base sm:text-lg font-black tracking-wide leading-snug">
+                        "I BELIEVE THAT ALL MY STUDENTS CAN AND WILL – BELIEVE THAT THE SKY IS THEIR LIMIT."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white border-b-2 border-slate-200 sticky top-[62px] z-40 shadow-md">
+        <div class="max-w-4xl mx-auto flex justify-between overflow-x-auto text-xs sm:text-sm font-extrabold text-slate-700">
+            <a href="#framework" class="py-4 px-3 sm:px-4 border-b-4 border-transparent hover:border-amber-500 hover:text-amber-600 transition whitespace-nowrap"><i class="fa-solid fa-shapes mr-1.5 text-amber-500"></i>5 Class Ideas</a>
+            <a href="#curriculum" class="py-4 px-3 sm:px-4 border-b-4 border-transparent hover:border-blue-600 hover:text-blue-600 transition whitespace-nowrap"><i class="fa-solid fa-book-open mr-1.5 text-blue-600"></i>Curriculum Plans</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-4xl mx-auto px-4 py-10 space-y-12">
+        <section id="framework" class="space-y-6">
+            <div class="border-l-8 border-amber-500 pl-4 py-1">
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-900">Five Ideas That Shape Everything We Do</h2>
+                <p class="text-slate-600 text-sm sm:text-base font-semibold">How learning is structured in Grade 7 & 8 Science and Math.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="bg-white p-6 rounded-2xl border-2 border-slate-200 shadow-sm hover:border-amber-400 hover:shadow-lg transition space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <span class="bg-amber-100 text-amber-900 font-black text-xs px-3 py-1 rounded-lg border border-amber-300">SDGs</span>
+                        <h3 class="font-bold text-slate-900 text-lg">Learning with World Goals</h3>
+                    </div>
+                    <p class="text-sm text-slate-700 leading-relaxed">Units link directly to the UN's 17 Sustainable Development Goals so students understand the real-world impact of their learning.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border-2 border-slate-200 shadow-sm hover:border-blue-500 hover:shadow-lg transition space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <span class="bg-blue-100 text-blue-900 font-black text-xs px-3 py-1 rounded-lg border border-blue-300">BTC</span>
+                        <h3 class="font-bold text-slate-900 text-lg">Building Thinking Classrooms</h3>
+                    </div>
+                    <p class="text-sm text-slate-700 leading-relaxed">Students collaborate on tasks standing up at whiteboards in small, randomly selected groups.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
